@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>3 Column Layout</title>
+   <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+<body>
+<header class="header"><p><img src="assets/img/logo.png" height="50px"></p></header>
+<div class="container">
+   <main class="center column">
+       <article>
+           <h1>MEDIA</h1>
+           <p>
+		    <audio src="assets/img/audio.mp3" controls></audio>
+       <p></p>
+       <video src="assets/img/video.mp4" controls></video>
+       <p></p>
+       
+       <div class="video">
+       <iframe width="760" height="515" src="https://www.youtube.com/watch?v=L_LUpnjgPso&ab_channel=Fireplace10hours" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+   </p>
+       </article>
+   </main>
+   <nav class="left column">
+       <h3>Menu</h3>
+       <ul>
+           <li><a href="index.html">Main</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="media.html">Media</a></li>
+           <li><a href="slider.html">Slider</a></li>
+           <li><a href="table.html">Table</a></li>
+       </ul>
+   </nav>
+   <div class="right column">
+       <h3></h3>
+       <p></p>
+   </div>
+   <div class="push"></div>
+</div>
+<div class="footer-wrapper">
+   <footer class="footer"><p><img src="assets/img/logo.png" height="50px"></p></footer>
+</div>
+</body>
+</html>
+
+
